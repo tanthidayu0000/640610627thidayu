@@ -1,8 +1,18 @@
 #include<iostream>
 using namespace std;
 
+#include<iostream>
+using namespace std;
 char before(char x){
-	//Write your function definition here
+ if(x > 'A' && x <= 'Z')
+ {
+  return x - 1;
+ }
+ if(x == 'A'){
+  return 'Z';
+ }else{
+  return '0';
+ }
 }
 
 int main(){
